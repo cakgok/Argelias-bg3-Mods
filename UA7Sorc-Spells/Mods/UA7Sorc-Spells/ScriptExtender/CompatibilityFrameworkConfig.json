@@ -1,0 +1,29 @@
+{
+    "FileVersion": 1,
+    "Progressions": [
+		{
+			"UUID": "0e10748f-f9bf-4d10-9786-0ecda400cb14",
+            "Selectors": [
+                {
+                    "Action": "Insert",
+                    "Function": "AddSpells",
+                    "Params": {
+                        "Guid": "64fb2e31-bac3-482c-a908-15017eeda0ac",
+                        "PrepareType": "AlwaysPrepared"
+					}
+				}
+            ]
+        }
+	],
+	"Lists": [
+		{
+			"Action": "Insert",
+			"UUID": "485a68b4-c678-4888-be63-4a702efbe391",
+			"Type": "SpellList",
+			"Items": [
+				"Sorc_Blast"
+			]
+		}
+	]	
+}
+

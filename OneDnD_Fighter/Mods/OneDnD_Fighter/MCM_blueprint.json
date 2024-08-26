@@ -1,0 +1,32 @@
+{
+    "SchemaVersion": 1,
+    "Tabs": [
+        {
+        "TabId": "Settings",
+        "TabName": "Settings",   
+            "Settings": [
+                {
+                    "Id": "studiedAttacks",
+                    "Name": "Studied Attacks at Level 12",
+                    "Type": "checkbox",
+                    "Default": true,
+                    "Description": "Enables Studied Attacks at level 12. Disable for Rules as Written. \nIt has no effect if you are using any level 20 mod, as in ithat case Studied Attacks are inserted into level 13 automatically. \nNeed a restart for changes to take effect."
+                },
+                {
+                    "Id": "improvedExtraAttackFix",
+                    "Name": "War Magic w/ Improved Extra Attack",
+                    "Type": "checkbox",
+                    "Default": true,
+                    "Description": "Integrates War Magic feature with level 11 Improved Extra Attack. \nDisable if you encounter any issues."
+                },
+                {
+                    "Id": "debugToggle",
+                    "Name": "Debug Toggle",
+                    "Type": "checkbox",
+                    "Default": false,
+                    "Description": "Keep it disabled unless you want to see verbose output on the console. \nIt is intended for the author to find bugs eaiser"
+                }
+            ]
+        }
+    ]
+}

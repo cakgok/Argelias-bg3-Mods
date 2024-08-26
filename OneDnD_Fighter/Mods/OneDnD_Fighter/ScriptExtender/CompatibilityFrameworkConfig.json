@@ -1,0 +1,192 @@
+{
+    "FileVersion": 1,
+    "Progressions": [
+        {
+            "UUIDs": [
+                "b29977d4-b81a-4794-9f4f-badd7cc23f6b",
+                "dfb2fd83-9849-4c2d-be84-adedb81a867a"
+            ],
+            "Strings": [
+                {
+                    "Action": "Insert",
+                    "Type": "Boosts",
+                    "Strings": [
+                        "ActionResource(SecondWindCharge,2,0)"
+                    ]
+                }
+            ]
+        },
+        {
+            "UUIDs": [
+                "b29977d4-b81a-4794-9f4f-badd7cc23f6b",
+                "dfb2fd83-9849-4c2d-be84-adedb81a867a"
+            ],
+            "Strings": [
+                {
+                    "Action": "Insert",
+                    "Type": "PassivesAdded",
+                    "Strings": [
+                        "SecondWind_Restore"
+                    ]
+                }
+            ]
+        },
+        {
+            "UUID": "aafbbc41-16e8-4296-a283-a2c5fdd0625b",
+            "Strings": [
+                {
+                    "Action": "Insert",
+                    "Type": "PassivesAdded",
+                    "Strings": [
+                        "TacticalMind"
+                    ]
+                }
+            ]
+        },
+        {
+            "UUID": "05f6a6ef-a574-4317-b9e4-e710975e07b4",
+            "Strings": [
+                {
+                    "Action": "Insert",
+                    "Type": "Boosts",
+                    "Strings": [
+                        "ActionResource(SecondWindCharge,1,0)"
+                    ]
+                }
+            ]
+        },
+        {
+            "UUID": "7535f41a-d360-4adc-8166-9d2e29660b1d",
+            "Strings": [
+                {
+                    "Action": "Insert",
+                    "Type": "Boosts",
+                    "Strings": [
+                        "ActionResource(SecondWindCharge,1,0)"
+                    ]
+                }
+            ]
+        },
+        {
+            "UUID": "07180f5f-54ab-4fe6-9972-df150a5fb85a",
+            "Strings": [
+                {
+                    "Action": "Remove",
+                    "Type": "PassivesAdded",
+                    "Strings": [
+                        "RemarkableAthlete_Proficiency",
+                        "RemarkableAthlete_Jump"
+                    ]
+                }
+            ]
+        },
+        {
+            "UUID": "cbd87913-03ee-484b-bc62-57d6867e8aca",
+            "Strings": [
+                {
+                    "Action": "Insert",
+                    "Type": "PassivesAdded",
+                    "Strings": [
+                        "RemarkableAthlete_Proficiency",
+                        "RemarkableAthlete_Jump"
+                    ]
+                }
+            ]
+        },
+        {
+            "UUID": "a4b1948f-7367-43bb-bff2-e5e18cc2c5a7",
+            "Selectors": [
+                {
+                    "Action": "Remove",
+                    "Function": "SelectPassives",
+                    "UUID": "da3203d8-750a-4de1-b8eb-1eccfccddf46"
+                }
+            ]
+        },
+        {
+            "UUID": "07180f5f-54ab-4fe6-9972-df150a5fb85a",
+            "Selectors": [
+                {
+                    "Action": "Insert",
+                    "Function": "SelectPassives",
+                    "Params": {
+                        "Guid": "da3203d8-750a-4de1-b8eb-1eccfccddf46",
+                        "Amount": "1"
+                    }
+                }
+            ]
+        },
+		{
+            "UUID": "6b099a1b-dd6c-4b6a-a0b5-70fa86dbe6d3",
+            "Strings": [
+                {
+                    "Action": "Remove",
+                    "Type": "PassivesAdded",
+                    "Strings": [
+                        "WarMagic"
+                    ]
+                }
+            ]
+        },
+        {
+            "UUID": "6b099a1b-dd6c-4b6a-a0b5-70fa86dbe6d3",
+            "Strings": [
+                {
+                    "Action": "Insert",
+                    "Type": "PassivesAdded",
+                    "Strings": [
+                        "WarMagic_EK"
+                    ]
+                }
+            ]
+        },
+		{
+            "UUID": "6b099a1b-dd6c-4b6a-a0b5-70fa86dbe6d3",
+            "Strings": [
+                {
+                    "Action": "Insert",
+                    "Type": "PassivesAdded",
+                    "Strings": [
+                        "ExtraAttack_EK"
+                    ]
+                }
+            ]
+        },
+		{
+            "UUID": "a4b1948f-7367-43bb-bff2-e5e18cc2c5a7",
+            "Strings": [
+                {
+                    "Action": "Insert",
+                    "Type": "PassivesAdded",
+                    "Strings": [
+                        "HeroicWarrior_Unlock"
+                    ]
+                }
+            ]
+        },
+		{
+            "UUID": "d393b47c-629b-4c26-a857-741f9ef2eff2",
+            "Strings": [
+                {
+                    "Action": "Insert",
+                    "Type": "PassivesRemoved",
+                    "Strings": [
+                        "ExtraAttack_EK"
+                    ]
+                }
+            ]
+        },
+        {
+            "UUID": "3b20daaa-91e3-45ec-ad66-69763bc5ab2d",
+            "Strings": [
+                {
+                    "Action": "Insert",
+                    "Type": "PassivesAdded",
+                    "Strings": [
+                        "TacticalShift"
+                    ]
+                }
+            ]
+        }
+    ]
+}

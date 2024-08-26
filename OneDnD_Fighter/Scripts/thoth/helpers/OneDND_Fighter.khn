@@ -1,0 +1,63 @@
+local __util = require 'larian.util'
+
+function HasAnyExtraAttack_EK(entity)
+    local entity = entity or context.Target
+	local result = HasAnyStatus({'EXTRA_ATTACK','EXTRA_ATTACK_2','EXTRA_ATTACK_WAR_MAGIC','EXTRA_ATTACK_WAR_PRIEST','MAG_MARTIAL_EXERTION','WILDSTRIKE_EXTRA_ATTACK','WILDSTRIKE_2_EXTRA_ATTACK','STALKERS_FLURRY','EXTRA_ATTACK_THIRSTING_BLADE','COMMANDERS_STRIKE_D10','COMMANDERS_STRIKE_D8','EXTRA_ATTACK_EK','EXTRA_ATTACK_EK_CANTRIP'},{},{}, entity, context.Source, false).Result
+    return ConditionResult(result)
+end
+
+function HasHigherPriorityExtraAttackQueued_EK(status, entity)
+    local entity = entity or context.Target
+    local eaQueuedStatuses = 
+        {
+          'EXTRA_ATTACK_2_Q'
+        , 'EXTRA_ATTACK_EK_Q'
+        , 'EXTRA_ATTACK_Q'
+        , 'EXTRA_ATTACK_WAR_MAGIC_Q'
+        , 'MAG_MARTIAL_EXERTION_Q'
+        , 'WILDSTRIKE_EXTRA_ATTACK_Q'
+        , 'STALKERS_FLURRY_Q'
+        , 'EXTRA_ATTACK_THIRSTING_BLADE_Q'
+        , 'COMMANDERS_STRIKE_Q_D10'
+        , 'COMMANDERS_STRIKE_Q_D8'
+        , 'WILDSTRIKE_2_EXTRA_ATTACK_Q'
+        , 'EXTRA_ATTACK_WAR_PRIEST_Q'
+    }
+    for i,v in ipairs(eaQueuedStatuses) do
+        if (v == status) then
+            return ConditionResult(false)
+        end
+        if HasStatus(v, entity, context.Source, false).Result then
+            return ConditionResult(true)
+        end
+    end
+    return ConditionResult(false)
+end
+
+function HasHigherPriorityExtraAttackQueued_EK_Cantrip(status, entity)
+    local entity = entity or context.Target
+    local eaQueuedStatuses = {
+          'EXTRA_ATTACK_2_Q'
+        , 'EXTRA_ATTACK_EK_CANTRIP_Q'
+        , 'EXTRA_ATTACK_Q'
+        , 'EXTRA_ATTACK_WAR_MAGIC_Q'
+        , 'MAG_MARTIAL_EXERTION_Q'
+        , 'WILDSTRIKE_EXTRA_ATTACK_Q'
+        , 'STALKERS_FLURRY_Q'
+        , 'EXTRA_ATTACK_THIRSTING_BLADE_Q'
+        , 'COMMANDERS_STRIKE_Q_D10'
+        , 'COMMANDERS_STRIKE_Q_D8'
+        , 'WILDSTRIKE_2_EXTRA_ATTACK_Q'
+        , 'EXTRA_ATTACK_WAR_PRIEST_Q'
+    }
+
+    for i,v in ipairs(eaQueuedStatuses) do
+        if (v == status) then
+            return ConditionResult(false)
+        end
+        if HasStatus(v, entity, context.Source, false).Result then
+            return ConditionResult(true)
+        end
+    end
+    return ConditionResult(false)
+end

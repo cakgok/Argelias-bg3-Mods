@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="307"/>
+    <region id="DifficultyClasses">
+        <node id="root">
+            <children>
+                <node id="DifficultyClass">
+                    <attribute id="Difficulties" type="LSString" value="10"/>
+                    <attribute id="Name" type="LSString" value="Custom_10"/>
+                    <attribute id="UUID" type="guid" value="a491e4a0-d8c9-44fd-baf9-606f20c09c0d"/>
+                </node>
+                <node id="DifficultyClass">
+                    <attribute id="Difficulties" type="LSString" value="11"/>
+                    <attribute id="Name" type="LSString" value="Custom_11"/>
+                    <attribute id="UUID" type="guid" value="7a49a44c-4e9c-436f-b98b-df320b054bf3"/>
+                </node>
+                <node id="DifficultyClass">
+                    <attribute id="Difficulties" type="LSString" value="12"/>
+                    <attribute id="Name" type="LSString" value="Custom_12"/>
+                    <attribute id="UUID" type="guid" value="470288cd-d004-4ca2-9e42-74146df4b046"/>
+                </node>
+                <node id="DifficultyClass">
+                    <attribute id="Difficulties" type="LSString" value="13"/>
+                    <attribute id="Name" type="LSString" value="Custom_13"/>
+                    <attribute id="UUID" type="guid" value="5ac278da-50fb-4811-99da-a368c4d7e57b"/>
+                </node>
+				<node id="DifficultyClass">
+                    <attribute id="Difficulties" type="LSString" value="14"/>
+                    <attribute id="Name" type="LSString" value="Custom_14"/>
+                    <attribute id="UUID" type="guid" value="6a69333d-3bd8-47df-b72e-b6a9bb0259dc"/>
+                </node>
+				<node id="DifficultyClass">
+                    <attribute id="Difficulties" type="LSString" value="15"/>
+                    <attribute id="Name" type="LSString" value="Custom_15"/>
+                    <attribute id="UUID" type="guid" value="e2ea8ff5-a39c-48f2-8d55-64d08e22c8a9"/>
+                </node>
+				<node id="DifficultyClass">
+                    <attribute id="Difficulties" type="LSString" value="16"/>
+                    <attribute id="Name" type="LSString" value="Custom_16"/>
+                    <attribute id="UUID" type="guid" value="7b0b4731-d129-4f0e-946c-5f6ac3040b3c"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

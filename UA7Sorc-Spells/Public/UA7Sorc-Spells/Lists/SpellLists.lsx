@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="328" />
+  <region id="SpellLists">
+    <node id="root">
+      <children>
+        <node id="SpellList">
+			<attribute id="Comment" type="LSString" value="Sorcerous Burst Cantrip" />
+			<attribute id="Spells" type="LSString" value="Sorc_Blast" />
+			<attribute id="UUID" type="guid" value="7f9dd7cf-d43a-4f2d-929d-a639d834fba0" />
+        </node>
+		<node id="SpellList">
+			<attribute id="Comment" type="LSString" value="Arcane Eruption" />
+			<attribute id="Spells" type="LSString" value="Sorc_Arcane_Eruption" />
+			<attribute id="UUID" type="guid" value="64fb2e31-bac3-482c-a908-15017eeda0ac" />
+		</node>
+      </children>
+    </node>
+  </region>
+</save>

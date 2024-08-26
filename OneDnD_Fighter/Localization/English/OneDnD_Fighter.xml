@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+    <content contentuid="had02d3b4c8a04cc5893d08f4c003bb60ca0e" version="1">Second Wind Charges</content>
+    <content contentuid="h0f927226cdec4e2496b1567a1656ddc9c4c0" version="1">Used for casting &lt;LSTag Type="Spell" Tooltip="Shout_SecondWind"&gt;Second Wind&lt;/LSTag&gt;.&lt;br&gt;Regain 1 charge when you complete a &lt;LSTag Type="Rest" Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt; and all charges when you complete a &lt;LSTag Type="Rest" Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+    <content contentuid="h43f2b4e5ecdd43c5a2baa5c5d00b6897aae4" version="1">Tactical Mind</content>
+    <content contentuid="hf78755fa086444e9ba594dd9253a446d09ga" version="1">Tactical Mind Bonus</content>
+    <content contentuid="hfdb72943bbdb42ca9762c47ed6ee1bbe3951" version="1">Tactical Mind Interrupt</content>
+    <content contentuid="h5bc9a7852a8f446cb3ad518226e07f5e0169" version="1">Add 1d10 to the &lt;LSTag Type="Check" Tooltip="AbilityCheck"&gt;Ability&lt;/LSTag&gt; or &lt;LSTag Type="Check" Tooltip="SkillCheck"&gt;Skill Checks&lt;/LSTag&gt; when you fail.</content>
+    <content contentuid="h7d04b3637d6c4b7390305c389fb07afd87f6" version="1">Gain 1d10 Bonus on your next &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Check&lt;/LSTag&gt;.</content>
+    <content contentuid="h81db990f43cf497eb21d4535464f51d90494" version="1">Grants 1d10 Bonus on your next &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Check&lt;/LSTag&gt;.</content>
+    <content contentuid="h9cad33c3f4db49f3a0760ce9d02abe18bg5a" version="1">You can spend a &lt;LSTag Type="Resource" Tooltip="SecondWindCharge"&gt;Second Wind Charge&lt;/LSTag&gt; to get a 1d10 Bonus on the next &lt;LSTag Type="Check" Tooltip="SkillCheck"&gt;Skill Check&lt;/LSTag&gt; or &lt;LSTag Type="Check" Tooltip="AbilityCheck"&gt;Ability Check&lt;/LSTag&gt;. The Second Wind Charge is not spent if the roll is a failure.</content>
+    <content contentuid="h5a6253b465be4e468d920a3b1d915c0af6b7" version="1">Heroic Advantage Charge</content>
+    <content contentuid="h99c0ac0117544b24a064c8c81ff5a44e2ef4" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on a d20 once per turn. Recharges at the start of your turn.</content>
+    <content contentuid="hd14f072755374e07adefc17b335e40dc9gd4" version="1">Heroic Warrior</content>
+    <content contentuid="h14500eddd86a4da9ab33d8123160e5f65f17" version="1">Once per turn, you can use a &lt;LSTag Type="Resource" Tooltip="HeroicWarrior"&gt;Heroic Advantage Charge&lt;/LSTag&gt; to reroll any d20 check.</content>
+    <content contentuid="h51279c15d0e44c7fa182dfbe7e81a719f911" version="1">Heroic Warrior: Reroll with Advantage</content>
+    <content contentuid="h45c768e4db5642e3a3caf077c71f12776d9f" version="1">Spend a &lt;LSTag Type="ActionResource" Tooltip="HeroicWarrior"&gt;Heroic Advantage Charge&lt;/LSTag&gt; to gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; or &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;. Heroic Advantage Charge resets at the start of your turn.</content>
+    <content contentuid="h9d57da1f814d4624a44de51f40b15e6a7cg4" version="1">War Magic</content>
+    <content contentuid="hd538fde0d4614113b7c957e1a95b5475d691" version="1">You can cast one of your cantrips in place of an attack, when you take the attack action.</content>
+    <content contentuid="h066600e68c4e4e2982df29779e2f42317083" version="1">You have honed your body and magic for war. You can cast a &lt;LSTag Tooltip="Cantrip"&gt;cantrip&lt;/LSTag&gt; instead of an attack action.</content>
+    <content contentuid="hb9139b39eb134aaebdcd29d55a2c933fgd89" version="1">Studied Attacks</content>
+    <content contentuid="h61672be327f04c00835b273db511f1c6a138" version="1">The spellcaster has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with weapons against this creature.</content>
+    <content contentuid="h2dd8c95f6bee47488f85cd4097b3708bdgf1" version="1">Has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with weapon attacks against Studied Attacks's target.</content>
+    <content contentuid="h89476573156546e59c0882087d65714846e7" version="1">Studied Attacks</content>
+    <content contentuid="hc4da938d996645dc8dd6df8980d0ee988476" version="1">Gain Advantage on attacks against a target creature after you miss an attack.</content>
+    <content contentuid="h58b39ce89b91453a8e0f287cbea4b2a04e8d" version="1">You can take an additional two weapon attacks when you take the Attack action. You can cast a cantrip instead of one of the attacks.</content>
+    <content contentuid="hd45de40cad7f4d038592e8b78c2635b3fa52" version="1">Extra Attack</content>
+    <content contentuid="he7bee55bf036411c89a008b9edb0f300ef1a" version="1">Extra Attack - War Magic</content>
+    <content contentuid="h4cbbce29df374523b74bc236aeb78ef92eac" version="1">Tactical Shift</content>
+    <content contentuid="h23a5bc79bf634fc9b4eaecc2ebd8117ab341" version="1">You have become as durable as an iron golem. Whenever you fail a &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, you can roll again, using the new result and adding a bonus equal to your Fighter level.</content>
+    <content contentuid="ha34604773b95470488de82b5ca669d5e4952" version="1">When you use &lt;LSTag Tooltip="SecondWind"&gt;Second Wind&lt;/LSTag&gt;, you can move up to half your Speed, and you don't provoke &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt; for that turn.</content>
+</contentList>
+    
+    
+    
+    
+    
+    
+    

@@ -1,0 +1,7 @@
+{
+    "RequiredVersion": 17,
+    "ModTable": "OneDnd_Fighter",
+    "FeatureFlags": [
+        "Lua"
+    ]
+}

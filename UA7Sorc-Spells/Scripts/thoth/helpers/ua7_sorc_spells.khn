@@ -1,0 +1,18 @@
+function isSorcBlast()
+	return SpellId('Sorc_Blast')
+end	
+
+function CharacterLevelEqualOrGreaterThan(value,entity)
+    entity = entity or context.Source
+    return ConditionResult(entity.Level >= value)
+end
+
+function CharacterLevelEqualOrLessThan(value,entity)
+    entity = entity or context.Source
+    return ConditionResult(entity.Level <= value)
+end
+
+function CharacterLevelEqualOrBetween(value, value2, entity)
+    entity = entity or context.Source
+    return CharacterLevelEqualOrGreaterThan(value,entity) & CharacterLevelEqualOrLessThan(value2,entity)
+end

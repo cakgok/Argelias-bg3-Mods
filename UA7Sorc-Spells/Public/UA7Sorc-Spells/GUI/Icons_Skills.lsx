@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="6" build="5" />
+    <region id="TextureAtlasInfo">
+        <node id="root">
+            <children>
+                <node id="TextureAtlasIconSize">
+                    <attribute id="Height" type="int64" value="64"/>
+                    <attribute id="Width" type="int64" value="64"/>
+                </node>
+                <node id="TextureAtlasPath">
+                    <attribute id="Path" type="LSString" value="Assets/Textures/Icons/UA7_Sorc_Atlas.DDS"/>
+                    <attribute id="UUID" type="FixedString" value="4ad04a50-58bf-4a89-846a-42efd04a5a45"/>
+                </node>
+                <node id="TextureAtlasTextureSize">
+                    <attribute id="Height" type="int64" value="64"/>
+                    <attribute id="Width" type="int64" value="2048"/>
+                </node>
+            </children>
+        </node>
+    </region>
+    <region id="IconUVList">
+        <node id="root">
+            <children>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Arcane_Eruption_Acid"/>
+                    <attribute id="U1" type="float" value="0.0"/>
+                    <attribute id="U2" type="float" value="0.03125"/>
+                    <attribute id="V1" type="float" value="0.0"/>
+                    <attribute id="V2" type="float" value="1"/>
+                </node>	
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Arcane_Eruption_Cold"/>
+                    <attribute id="U1" type="float" value="0.03125"/>
+                    <attribute id="U2" type="float" value="0.0625"/>
+                    <attribute id="V1" type="float" value="0.0"/>
+                    <attribute id="V2" type="float" value="1"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Arcane_Eruption_Container"/>
+                    <attribute id="U1" type="float" value="0.0625"/>
+                    <attribute id="U2" type="float" value="0.09375"/>
+                    <attribute id="V1" type="float" value="0.0"/>
+                    <attribute id="V2" type="float" value="1"/>
+                </node>				
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Arcane_Eruption_Fire"/>
+                    <attribute id="U1" type="float" value="0.09375"/>
+                    <attribute id="U2" type="float" value="0.125"/>
+                    <attribute id="V1" type="float" value="0.0"/>
+                    <attribute id="V2" type="float" value="1"/>
+                </node>				
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Arcane_Eruption_Lightning"/>
+                    <attribute id="U1" type="float" value="0.125"/>
+                    <attribute id="U2" type="float" value="0.15625"/>
+                    <attribute id="V1" type="float" value="0.0"/>
+                    <attribute id="V2" type="float" value="1"/>
+                </node>				
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Arcane_Eruption_Poison"/>
+                    <attribute id="U1" type="float" value="0.15625"/>
+                    <attribute id="U2" type="float" value="0.1875"/>
+                    <attribute id="V1" type="float" value="0.0"/>
+                    <attribute id="V2" type="float" value="1"/>
+                </node>				
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Arcane_Eruption_Psychic"/>
+                    <attribute id="U1" type="float" value="0.1875"/>
+                    <attribute id="U2" type="float" value="0.21875"/>
+                    <attribute id="V1" type="float" value="0.0"/>
+                    <attribute id="V2" type="float" value="1"/>
+                </node>				
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Arcane_Eruption_Thunder"/>
+                    <attribute id="U1" type="float" value="0.21875"/>
+                    <attribute id="U2" type="float" value="0.25"/>
+                    <attribute id="V1" type="float" value="0.0"/>
+                    <attribute id="V2" type="float" value="1"/>
+                </node>				
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Sorc_Blast_Acid"/>
+                    <attribute id="U1" type="float" value="0.25"/>
+                    <attribute id="U2" type="float" value="0.28125"/>
+                    <attribute id="V1" type="float" value="0.0"/>
+                    <attribute id="V2" type="float" value="1"/>
+                </node>				
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Sorc_Blast_Cold"/>
+                    <attribute id="U1" type="float" value="0.28125"/>
+                    <attribute id="U2" type="float" value="0.3125"/>
+                    <attribute id="V1" type="float" value="0.0"/>
+                    <attribute id="V2" type="float" value="1"/>
+                </node>				
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Sorc_Blast_Container"/>
+                    <attribute id="U1" type="float" value="0.3125"/>
+                    <attribute id="U2" type="float" value="0.34275"/>
+                    <attribute id="V1" type="float" value="0.0"/>
+                    <attribute id="V2" type="float" value="1"/>
+                </node>				
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Sorc_Blast_Fire"/>
+                    <attribute id="U1" type="float" value="0.34275"/>
+                    <attribute id="U2" type="float" value="0.375"/>
+                    <attribute id="V1" type="float" value="0.0"/>
+                    <attribute id="V2" type="float" value="1"/>
+                </node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Sorc_Blast_Lightning"/>
+                    <attribute id="U1" type="float" value="0.375"/>
+                    <attribute id="U2" type="float" value="0.40625"/>
+                    <attribute id="V1" type="float" value="0.0"/>
+                    <attribute id="V2" type="float" value="1"/>
+                </node>				
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Sorc_Blast_Poison"/>
+                    <attribute id="U1" type="float" value="0.40625"/>
+                    <attribute id="U2" type="float" value="0.4375"/>
+                    <attribute id="V1" type="float" value="0.0"/>
+                    <attribute id="V2" type="float" value="1"/>
+                </node>				
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Sorc_Blast_Psychic"/>
+                    <attribute id="U1" type="float" value="0.4375"/>
+                    <attribute id="U2" type="float" value="0.46875"/>
+                    <attribute id="V1" type="float" value="0.0"/>
+                    <attribute id="V2" type="float" value="1"/>
+				</node>
+				<node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Sorc_Blast_Thunder"/>
+                    <attribute id="U1" type="float" value="0.46875"/>
+                    <attribute id="U2" type="float" value="0.5"/>
+                    <attribute id="V1" type="float" value="0.0"/>
+                    <attribute id="V2" type="float" value="1"/>
+				 </node>		
+            </children>
+        </node>
+    </region>
+</save>

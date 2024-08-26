@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<save>
+    <version major="4" minor="0" revision="4" build="600" />
+    <region id="ActionResourceDefinitions">
+        <node id="root">
+            <children> 
+                <node id="ActionResourceDefinition">
+                    <attribute id="Name" type="FixedString" value="SecondWindCharge" /> 
+					<attribute id="DisplayName" type="TranslatedString" handle="had02d3b4c8a04cc5893d08f4c003bb60ca0e" version="1" /> 
+					<attribute id="Description" type="TranslatedString" handle="h0f927226cdec4e2496b1567a1656ddc9c4c0" version="1" /> 
+                    <attribute id="MaxLevel" type="uint32" value="0" />
+                    <attribute id="ReplenishType" type="FixedString" value="Rest" /> 
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true" /> 
+                    <attribute id="UUID" type="guid" value="6a678987-2391-40a2-99b7-d026a5573f73" /> 
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Name" type="FixedString" value="HeroicWarrior" /> 
+					<attribute id="DisplayName" type="TranslatedString" handle="h5a6253b465be4e468d920a3b1d915c0af6b7" version="1" /> 
+					<attribute id="Description" type="TranslatedString" handle="h99c0ac0117544b24a064c8c81ff5a44e2ef4" version="1" /> 
+                    <attribute id="MaxLevel" type="uint32" value="0" />
+                    <attribute id="MaxValue" type="uint32" value="1" />
+                    <attribute id="ReplenishType" type="FixedString" value="Turn" />
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="false" /> 
+                    <attribute id="UUID" type="guid" value="c5dfdb69-4089-4264-926f-7904aaef0a5d" /> 
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

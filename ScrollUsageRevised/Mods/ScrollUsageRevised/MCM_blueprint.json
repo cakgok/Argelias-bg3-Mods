@@ -1,0 +1,47 @@
+{
+    "SchemaVersion": 1,
+    "Tabs": [
+        {
+        "TabId": "Settings",
+        "TabName": "Settings",   
+            "Settings": [
+                {
+                    "Id": "removeAP",
+                    "Name": "Remove Action Point after fizzled Scroll Usage",
+                    "Type": "checkbox",
+                    "Default": true,
+                    "Description": "Remove Action Point after fizzled scroll usage.\nNeeds a reload"
+                },
+                {
+                    "Id": "debugToggle",
+                    "Name": "Debug Toggle",
+                    "Type": "checkbox",
+                    "Default": false,
+                    "Description": "Keep it disabled unless you want to see verbose output on the console. \nIt is intended for the author to find bugs eaiser"
+                },
+                {
+                    "Id": "disableOutOfCombat",
+                    "Name": "Disable skill checks out of combat",
+                    "Type": "checkbox",
+                    "Default": false,
+                    "Description": "Disable skill checks out of combat"
+                },
+                {
+                    "Id": "skillCheck",
+                    "Name": "Skill Check Type",
+                    "Description": "Decide what kind of skill check to use, Spell Casting Ability or Arcana",
+                    "Type": "enum",
+                    "Default": "SpellCastingAbility",
+                    "Options": {
+                        "Choices": [
+                            "SpellCastingAbility",
+							"Intelligence",
+                            "Arcana",
+                            "Religion"
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}
