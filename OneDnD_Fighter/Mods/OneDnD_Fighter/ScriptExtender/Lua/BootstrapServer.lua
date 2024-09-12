@@ -1,8 +1,19 @@
-if Ext.Mod.IsModLoaded("755a8a72-407f-4f0d-9a33-274ac0f0b53d") then
-    if Mods.BG3MCM.MCMAPI:GetSettingValue("improvedExtraAttackFix", "562aa89a-6a6a-4278-8cfa-e59f73b2cdac") then
-        Ext.Require("ImprovedExtraAttackFix.lua")
+local chizExtraAttackModGUID = "7429b169-5e11-4d31-9db3-b1285df2d191"
+local bg3mcmModGUID = "755a8a72-407f-4f0d-9a33-274ac0f0b53d"
+
+local function shouldLoadImprovedExtraAttackFix()
+    if Ext.Mod.IsModLoaded(chizExtraAttackModGUID) then
+        return false
     end
-else
+    
+    if not Ext.Mod.IsModLoaded(bg3mcmModGUID) then
+        return true
+    end
+    
+    return Mods.BG3MCM.MCMAPI:GetSettingValue("improvedExtraAttackFix", "562aa89a-6a6a-4278-8cfa-e59f73b2cdac")
+end
+
+if shouldLoadImprovedExtraAttackFix() then
     Ext.Require("ImprovedExtraAttackFix.lua")
 end
 
