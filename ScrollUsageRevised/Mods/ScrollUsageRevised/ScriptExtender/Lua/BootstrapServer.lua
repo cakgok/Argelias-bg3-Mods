@@ -51,6 +51,7 @@ local classAbilityMap = {
 	["452e548b-9143-4f97-b390-ba0ce8a63017"] = 6,  -- Voidborne, Wisdom
 	["2ed35e79-add5-41d4-9f54-12541231fd75"] = 6,  -- Witch, Wisdom
 	["79046310-7183-42f4-9ce6-4ffdb8d65e9b"] = 7,  -- Another DK, Charisma
+    ["7b9992cd-1fca-471d-bb34-a55a707acee5"] = 7 -- Blackguard, Charisma
 }
 
 local subClassAbilityMap = {

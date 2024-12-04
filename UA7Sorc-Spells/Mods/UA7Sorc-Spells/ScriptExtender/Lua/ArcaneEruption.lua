@@ -12,6 +12,7 @@ local function pickStatusToApply(roll)
 end
 
 Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(target, status, caster, _)
+---@diagnostic disable-next-line: undefined-global
 	local rollValue = Ext.Math.Add(Random(6),1)
 	if status == "ARCANE_ERUPTION_EXPLOSION_STATUS" then
 		local statusToApply = pickStatusToApply(rollValue)
